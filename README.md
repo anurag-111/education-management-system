@@ -6,6 +6,28 @@ The Education Management System backend is a comprehensive system developed usin
 ## Project Structure
 The project is organized into different controllers for managing teachers and students, a department controller for handling departments, and corresponding service layers to interact with the database.
 
+# Table of Contents
+1. [Overview](#overview)
+2. [Project Structure](#project-structure)
+   1. [Teacher Controller](#teacher-controller)
+   2. [Student Controller](#student-controller)
+   3. [Department Controller](#department-controller)
+3. [Entity Classes](#entity-classes)
+   1. [Student Entity](#student-entity)
+   2. [Teacher Entity](#teacher-entity)
+   3. [Department Entity](#department-entity)
+   4. [Course Entity](#course-entity)
+4. [Repository Classes](#repository-classes)
+   1. [Student Repository](#student-repository)
+   2. [Teacher Repository](#teacher-repository)
+   3. [Department Repository](#department-repository)
+   4. [Course Repository](#course-repository)
+5. [Service Classes](#service-classes)
+   1. [Student Service](#student-service)
+   2. [Teacher Service](#teacher-service)
+   3. [Department Service](#department-service)
+   4. [Course Service](#course-service)
+
 ### Teacher Controller
 - **Get All Teachers:**
   - Endpoint: `GET /teachers`
