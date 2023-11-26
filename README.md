@@ -73,7 +73,7 @@ The project is organized into different controllers for managing teachers and st
   - Endpoint: `GET /departments/name/{name}`
   - Retrieve a department by name.
 
-## Entity Classes
+### Entity Classes
 - **Student Entity:**
   - Represents student information, including first name, last name, email address, and guardian details.
 
